@@ -41,6 +41,19 @@ const Index = () => {
           </a>
         </div>
 
+        {/* Video */}
+        <div className="mt-12 md:mt-16 flex justify-center">
+          <div className="rounded-2xl overflow-hidden shadow-2xl w-full max-w-md aspect-[9/16]">
+            <iframe
+              src="https://www.youtube.com/embed/Dp3SRPpXEJ0"
+              title="2-Hour Mattress Video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            />
+          </div>
+        </div>
+
         {/* Van showcase */}
         <div className="mt-12 md:mt-20 rounded-2xl overflow-hidden shadow-2xl">
           <img
